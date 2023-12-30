@@ -2,3 +2,4 @@ streamlit==1.29.0
 pycaret==3.0.4
 openai==1.3.5
 fpdf==1.7.2
+st_pages
