@@ -8,9 +8,8 @@ from pycaret.datasets import get_data
 dados = pd.read_csv('recursos/water_potability.csv')
 modelo = load_model('recursos/modelo_agua_potavel')
 
-st.header('💧Deploy do Modelo da Potabilidade da Água')
+st.header('💧Deploy do Modelo da Potabilidade da Água', divider='gray')
 
-st.divider()
 st.write('Entre com as caracteristicas da água para fazer uma previsão de potabilidade da água.')
 
 
